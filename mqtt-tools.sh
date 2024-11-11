@@ -5,15 +5,15 @@ while [[ $again == 'Y' ]] || [[ $again == 'y' ]];
 do
 clear
 echo "  ________________________________________________________";
-echo " |                                                          |";
-echo " |      █▀▄▀█ █▀█ ▀█▀ ▀█▀     ▀█▀ █▀█ █▀█ █░░ █▀    |";
-echo " |      █░▀░█ ▀▀█ ░█░ ░█░     ░█░ █▄█ █▄█ █▄▄ ▄█    |";
+echo " |                                                        |";
+echo " |      █▀▄▀█ █▀█ ▀█▀ ▀█▀     ▀█▀ █▀█ █▀█ █░░ █▀          |";
+echo " |      █░▀░█ ▀▀█ ░█░ ░█░     ░█░ █▄█ █▄█ █▄▄ ▄█          |";
 echo " |________________________________________________________|";
 echo " |                                                        |";
 echo " | MQTT Broker Tools Setup                                |";
 echo " | Developer : Anggarda. https://github.com/anggrdwjy     |";
 echo " | Version 1.0.0 | 11/11/2024                             |";
-echo " | This Tools Support Ubuntu System Only.                   |";
+echo " | This Tools Support Ubuntu System Only.                 |";
 echo " | Ubuntu 18.04, 20.04, 22.04, 24.04                      |";
 echo " |________________________________________________________|";
 echo " |                                                        |";
