@@ -24,7 +24,8 @@ echo " ##      [2] EMQX Install                                  ##";
 echo " ##      [3] Start EMQX                                    ##";
 echo " ##      [4] Check EMQX Daemon Status                      ##";
 echo " ##      [5] Check Port EMQX                               ##";
-echo " ##      [6] Exit                                          ##";
+echo " ##      [6] Custom Port Dashboard EMQX                    ##";
+echo " ##      [7] Exit                                          ##";
 echo " ##                                                        ##";
 echo " ############################################################";
 echo "                                                           ";
@@ -91,13 +92,32 @@ case $choice in
    echo " ##                                                        ##";
    echo " ##      MQTT Protocol Port Default : 1883                 ##";
    echo " ##      MQTT Broker Dashboard : http://your-ip/18083      ##";
+   echo " ##      Default Login User : Admin | Password : Public    ##";
    echo " ##                                                        ##";
    echo " ############################################################";
    echo "                                                  ";
    fi
    ;;   
+
+6) read -p "Custom Port Dashboard EMQX? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   echo " ############################################################";
+   echo " ##                                                        ##";
+   echo " ##      Default Port Dashboard EMQX : 18083               ##";
+   echo " ##      Search String "bind = 18083"                      ##";
+   echo " ##                                                        ##";
+   echo " ############################################################";
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   sudo nano /etc/emqx/emqx.conf
+   sudo systemctl restart emqx
+   echo " Done Custom Port Dashboard                       ";
+   fi
+   ;;   
    
-6) exit
+7) exit
    ;;
 *)    echo "Sorry, Menu Not Available"
 esac
