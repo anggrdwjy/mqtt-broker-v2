@@ -1,5 +1,5 @@
 #!/bin/bash
-#Progammer : Anggarda. https://github.com/anggrdwjy.
+#Progammer : Anggarda Saputra Wijaya. https://github.com/anggrdwjy.
 again='y'
 while [[ $again == 'Y' ]] || [[ $again == 'y' ]];
 do
