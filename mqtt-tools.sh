@@ -123,12 +123,18 @@ case $choice in
    fi
    ;;   
 
-7) read -p "Check Bandwidth Monitoring? y/n :" -n 1 -r
+7) read -p "Install Bandwidth Monitoring? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo apt install iptraf-ng
+   fi
+   read -p "Check Bandwidth Monitoring? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
    iptraf-ng
    fi
    ;;
