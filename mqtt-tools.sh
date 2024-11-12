@@ -99,8 +99,7 @@ case $choice in
    fi
    ;;   
 
-6) read -p "Custom Port Dashboard EMQX? y/n :" -n 1 -r
-   echo  ""
+6) echo  ""
    echo "                                                  ";
    echo " ############################################################";
    echo " ##                                                        ##";
@@ -108,6 +107,9 @@ case $choice in
    echo " ##      Search String "bind = 18083"                      ##";
    echo " ##                                                        ##";
    echo " ############################################################";
+   echo "                                                  ";
+   read -p "Custom Port Dashboard EMQX? y/n :" -n 1 -r
+   echo  ""
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
