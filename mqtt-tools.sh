@@ -169,14 +169,15 @@ case $choice in
 *)    echo "Sorry, Menu Not Available"
 esac
 echo "                                                  ";
-echo "                                                  ";
 echo -n "Back to Menu? [y/n]: ";
 echo "                                                  ";
 read again;
 while [[ $again != 'Y' ]] && [[ $again != 'y' ]] && [[ $again != 'N' ]] && [[ $again != 'n' ]];
 do
-echo "Variable Not Available in Menu";
+echo " Variable Not Available in Menu ";
+echo "                                                  ";
 echo -n "Back to Menu? [y/n]: ";
+echo "                                                  ";
 read again;
 done
 done 
