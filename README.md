@@ -6,6 +6,12 @@
 * Bandwidth Monitoring
 * CPU and RAM Monitoring
 
+**Support OS**
+* Ubuntu 18.04
+* Ubuntu 20,04
+* Ubuntu 22,04
+* Ubuntu 24,04
+
 **Clone Repository**
 ```
 git clone https://github.com/anggrdwjy/mqtt-tools-v2
