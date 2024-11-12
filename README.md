@@ -21,5 +21,5 @@ chmod -R 777 *
 
 **Running Program**
 ```
-./mqtt-tools-v2
+./mqtt-tools-v2.sh
 ```
