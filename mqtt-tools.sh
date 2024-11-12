@@ -25,7 +25,10 @@ echo " ##      [3] Start EMQX                                    ##";
 echo " ##      [4] Check EMQX Daemon Status                      ##";
 echo " ##      [5] Check Port EMQX                               ##";
 echo " ##      [6] Custom Port Dashboard EMQX                    ##";
-echo " ##      [7] Exit                                          ##";
+echo " ##      [7] Bandwidth Monitoring Server                   ##";
+echo " ##      [8] Monitoring CPU and Memory                     ##";
+echo " ##      [9] Reboot Server                                 ##";
+echo " ##      [10] Exit                                         ##";
 echo " ##                                                        ##";
 echo " ############################################################";
 echo "                                                           ";
@@ -119,8 +122,36 @@ case $choice in
    echo " Done Custom Port Dashboard                       ";
    fi
    ;;   
+
+7) read -p "Check Bandwidth Monitoring? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   sudo apt install iptraf-ng
+   iptraf-ng
+   fi
+   ;;
    
-7) exit
+8) read -p "Monitoring CPU and RAM? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   sudo htop
+   fi
+   ;;
+   
+9) read -p "Reboot Your Machine? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   reboot
+   fi
+   ;;
+   
+10) exit
    ;;
 *)    echo "Sorry, Menu Not Available"
 esac
