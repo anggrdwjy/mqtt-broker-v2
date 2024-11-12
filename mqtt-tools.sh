@@ -19,7 +19,7 @@ echo " ##                                                        ##";
 echo " ############################################################";
 echo " ##                                                        ##";
 echo " ##      List Menu :                                       ##";
-echo " ##      [1] Add EMQX to Repository                        ##";
+echo " ##      [1] Add EMQX to Repository and Update             ##";
 echo " ##      [2] EMQX Install                                  ##";
 echo " ##      [3] Start EMQX                                    ##";
 echo " ##      [4] Check EMQX Daemon Status                      ##";
@@ -36,7 +36,7 @@ read -p " Select List : " choice;
 echo "                                                            ";
 case $choice in
 
-1) read -p "Add EMQX to Repository? y/n :" -n 1 -r
+1) read -p "Add EMQX to Repository and Update? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
@@ -139,7 +139,14 @@ case $choice in
    fi
    ;;
    
-8) read -p "Monitoring CPU and RAM? y/n :" -n 1 -r
+8) read -p "Install Monitoring CPU and RAM? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   sudo apt install htop
+   fi
+   read -p "Show Monitoring CPU and RAM? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
@@ -148,7 +155,7 @@ case $choice in
    fi
    ;;
    
-9) read -p "Reboot Your Machine? y/n :" -n 1 -r
+9) read -p "Reboot Your Server? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
