@@ -28,7 +28,7 @@
 * Ubuntu 22.04
 * Ubuntu 24.04
 
-**Clone Repository**
+**Installing Program**
 ```
 git clone https://github.com/anggrdwjy/mqtt-tools-v2
 cd mqtt-tools-v2
