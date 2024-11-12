@@ -29,11 +29,12 @@ echo " ##                                                        ##";
 echo " ############################################################";
 echo "                                                           ";
 read -p " Select List : " choice;
-echo "";
+echo "                                                            ";
 case $choice in
 
 1) read -p "Add EMQX to Repository? y/n :" -n 1 -r
    echo  ""
+   echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
@@ -45,6 +46,7 @@ case $choice in
 
 2) read -p "EMQX Install Now? y/n :" -n 1 -r
    echo  ""
+   echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo apt-get install emqx
@@ -56,6 +58,7 @@ case $choice in
 
 3) read -p "Start EMQX Now? y/n :" -n 1 -r
    echo  ""
+   echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo systemctl start emqx
@@ -67,6 +70,7 @@ case $choice in
 
 4) read -p "Check EMQX Status? y/n :" -n 1 -r
    echo  ""
+   echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo systemctl status emqx | more
@@ -82,6 +86,7 @@ case $choice in
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo netstat -tunlp
+   echo "                                                  ";
    echo " ############################################################";
    echo " ##                                                        ##";
    echo " ##      MQTT Protocol Port Default : 1883                 ##";
