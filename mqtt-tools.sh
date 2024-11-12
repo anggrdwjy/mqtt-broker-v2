@@ -4,33 +4,33 @@ again='y'
 while [[ $again == 'Y' ]] || [[ $again == 'y' ]];
 do
 clear
-echo " ##########################################################";
-echo " #                                                        #";
-echo " #      █▀▄▀█ █▀█ ▀█▀ ▀█▀     █▄▄ █▀█ █▀█ █▄▀ █▀▀ █▀█     #";
-echo " #      █░▀░█ ▀▀█ ░█░ ░█░     █▄█ █▀▄ █▄█ █░█ ██▄ █▀▄     #";
-echo " #                                                        #";
-echo " #      ▀█▀ █▀█ █▀█ █░░ █▀     █▀ █▀▀ ▀█▀ █░█ █▀█         #";
-echo " #      ░█░ █▄█ █▄█ █▄▄ ▄█     ▄█ ██▄ ░█░ █▄█ █▀▀         #";
-echo " #                                                        #";
-echo " ##########################################################";
-echo " #                                                        #";
-echo " #   MQTT Broker Tools Setup                              #";
-echo " #   Developer : Anggarda. https://github.com/anggrdwjy   #";
-echo " #   Version 1.0.1 | 12/11/2024                           #";
-echo " #   This Tools Support Ubuntu System Only.               #";
-echo " #   Ubuntu 18.04, 20.04, 22.04, 24.04                    #";
-echo " #                                                        #";
-echo " ##########################################################";
-echo " #                                                        #";
-echo " #      List Menu :                                       #";
-echo " #      [1] Add EMQX to Repository                        #";
-echo " #      [2] EMQX Install                                  #";
-echo " #      [3] Start EMQX                                    #";
-echo " #      [4] Check EMQX Daemon Status                      #";
-echo " #      [5] Check Port EMQX                               #";
-echo " #      [6] Exit                                          #";
-echo " #                                                        #";
-echo " ##########################################################";
+echo " ############################################################";
+echo " ##                                                        ##";
+echo " ##      █▀▄▀█ █▀█ ▀█▀ ▀█▀     █▄▄ █▀█ █▀█ █▄▀ █▀▀ █▀█     ##";
+echo " ##      █░▀░█ ▀▀█ ░█░ ░█░     █▄█ █▀▄ █▄█ █░█ ██▄ █▀▄     ##";
+echo " ##                                                        ##";
+echo " ##      ▀█▀ █▀█ █▀█ █░░ █▀     █▀ █▀▀ ▀█▀ █░█ █▀█         ##";
+echo " ##      ░█░ █▄█ █▄█ █▄▄ ▄█     ▄█ ██▄ ░█░ █▄█ █▀▀         ##";
+echo " ##                                                        ##";
+echo " ############################################################";
+echo " ##                                                        ##";
+echo " ##   MQTT Broker Tools Setup                              ##";
+echo " ##   Developer : Anggarda. https://github.com/anggrdwjy   ##";
+echo " ##   Version 1.0.1 | 12/11/2024                           ##";
+echo " ##   This Tools Support Ubuntu System Only.               ##";
+echo " ##   Ubuntu 18.04, 20.04, 22.04, 24.04                    ##";
+echo " ##                                                        ##";
+echo " ############################################################";
+echo " ##                                                        ##";
+echo " ##      List Menu :                                       ##";
+echo " ##      [1] Add EMQX to Repository                        ##";
+echo " ##      [2] EMQX Install                                  ##";
+echo " ##      [3] Start EMQX                                    ##";
+echo " ##      [4] Check EMQX Daemon Status                      ##";
+echo " ##      [5] Check Port EMQX                               ##";
+echo " ##      [6] Exit                                          ##";
+echo " ##                                                        ##";
+echo " ############################################################";
 echo "                                                           ";
 read -p " Select List : " choice;
 echo "";
@@ -86,11 +86,12 @@ case $choice in
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
    sudo netstat -tunlp
-   echo "  _______________________________________________ ";
-   echo " |                                                |";
-   echo " | MQTT Protocol Port Default : 1883              |";
-   echo " | MQTT Broker Dashboard : http://your-ip/18083   |";
-   echo " |_______________________________________________ |";
+   echo " ############################################################";
+   echo " ##                                                        ##";
+   echo " ##      MQTT Protocol Port Default : 1883                 ##";
+   echo " ##      MQTT Broker Dashboard : http://your-ip/18083      ##";
+   echo " ##                                                        ##";
+   echo " ############################################################";
    echo "                                                  ";
    fi
    ;;   
