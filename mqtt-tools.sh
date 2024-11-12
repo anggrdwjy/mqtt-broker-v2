@@ -81,13 +81,7 @@ case $choice in
    fi
    ;;
    
-5) read -p "Check TCP Port EMQX? y/n :" -n 1 -r
-   echo  ""
-   echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]]
-   then
-   sudo netstat -tunlp
-   echo "                                                  ";
+5) echo "                                                  ";
    echo " ############################################################";
    echo " ##                                                        ##";
    echo " ##      MQTT Protocol Port Default : 1883                 ##";
@@ -96,11 +90,18 @@ case $choice in
    echo " ##                                                        ##";
    echo " ############################################################";
    echo "                                                  ";
+   read -p "Check TCP Port EMQX? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   sudo netstat -tunlp
+   echo "                                                  ";
+   echo " List Port Protocol TCP and UDP                   ";
    fi
    ;;   
 
-6) echo  ""
-   echo "                                                  ";
+6) echo "                                                  ";
    echo " ############################################################";
    echo " ##                                                        ##";
    echo " ##      Default Port Dashboard EMQX : 18083               ##";
