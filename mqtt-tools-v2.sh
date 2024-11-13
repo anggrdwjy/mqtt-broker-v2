@@ -1,5 +1,11 @@
 #!/bin/bash
-#Progammer : Anggarda Saputra Wijaya. https://github.com/anggrdwjy.
+#################################################################
+# Script Name   : mqtt-tools-v2                                 #
+# Description   : Script Auto Install MQTT Broker               #
+# Author        : Anggarda Saputra Wijaya                       #
+# Email         : aw0x0410@gmail.com                            #
+# Github        : https://github.com/anggrdwjy.                 #
+#################################################################
 again='y'
 while [[ $again == 'Y' ]] || [[ $again == 'y' ]];
 do
