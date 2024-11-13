@@ -35,3 +35,14 @@ chmod -R 777 *
 ```
 ./mqtt-tools-v2.sh
 ```
+
+**Bugs**
+Please open an issue on GitHub with as much information as possible if you found a bug.
+* Your operating system / Linux distribution
+* All the logs and message outputted
+* etc
+
+**Support this project**
+Want to support this project?
+* [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
+* [:octocat::Sponsor me on GitHub](https://github.com/anggrdwjy)
