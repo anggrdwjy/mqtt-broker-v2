@@ -1,4 +1,4 @@
-## This Tools Automation Setup MQTT Server (EMQX)
+## This Tools Automation Setup MQTT Broker Server (EMQX)
 
 ```
       █▀▄▀█ █▀█ ▀█▀ ▀█▀     █▄▄ █▀█ █▀█ █▄▀ █▀▀ █▀█     
@@ -9,8 +9,7 @@
                                                         
       Developer : github.com/anggrdwjy                  
       Version 1.0.2 | 12/11/2024                        
-      Support Ubuntu 18.04, 20.04, 22.04, 24.04         
-                                                       
+      Support Ubuntu 18.04, 20.04, 22.04, 24.04                                                               
 ```
 
 **Features**
