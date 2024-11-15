@@ -1,12 +1,12 @@
 root@ubut:~/mqtt-tools-v2# more mqtt-tools-v2.sh 
 #!/bin/bash
-#################################################################
+#===============================================================#
 # Script Name   : mqtt-tools-v2                                 #
 # Description   : Script Auto Install MQTT Broker Server        #
 # Author        : Anggarda Saputra Wijaya                       #
 # Email         : aw0x0410@gmail.com                            #
 # Github        : https://github.com/anggrdwjy.                 #
-#################################################################
+#===============================================================#
 again='y'
 while [[ $again == 'Y' ]] || [[ $again == 'y' ]];
 do
@@ -184,6 +184,7 @@ echo -n "   Back to Options List? [y/n]: ";
 read again;
 while [[ $again != 'Y' ]] && [[ $again != 'y' ]] && [[ $again != 'N' ]] && [[ $again != 'n' ]];
 do
+echo "                                                  ";
 echo "   Sorry, Options List Not Available";
 echo "                                                  ";
 echo -n "   Back to Options List? [y/n]: ";
