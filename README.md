@@ -25,8 +25,8 @@
 * MQTT Broker Server Install
 * Custom Port Dashboard MQTT Broker Server
 * Custom Port MQTT Client Listener
-* Bandwidth Monitoring Server
-* CPU and RAM Monitoring Server
+* Bandwidth Monitoring
+* CPU and RAM Monitoring
 
 ## Support OS
 * Ubuntu 18.04
