@@ -63,5 +63,5 @@ Please open an issue on GitHub with as much information as possible if you found
 
 Want to support this project?
 * [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
-* [:octocat:: Follow me on GitHub](https://github.com/anggrdwjy)
-* [🔔: Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
+* [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
+* [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
