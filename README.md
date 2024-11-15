@@ -47,10 +47,10 @@ chmod -R 777 *
 ```
 
 **Source**
-* [EMQX Broker Server Document](https://docs.emqx.com/en/emqx/latest/)
-* [HTOP](https://htop.dev/)
-* [IPTRAF](http://iptraf.seul.org/)
-* [Online Bash Shell](https://www.onlinegdb.com/online_bash_shell)
+* https://docs.emqx.com/en/emqx/latest/
+* https://htop.dev/
+* http://iptraf.seul.org/
+* https://www.onlinegdb.com/online_bash_shell
 
 **Bugs**
 
@@ -64,3 +64,4 @@ Please open an issue on GitHub with as much information as possible if you found
 Want to support this project?
 * [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
+* [:youtube: Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
