@@ -10,37 +10,35 @@ again='y'
 while [[ $again == 'Y' ]] || [[ $again == 'y' ]];
 do
 clear
-echo "                                                           ";
-echo " ############################################################";
-echo " ##                                                        ##";
-echo " ##      █▀▄▀█ █▀█ ▀█▀ ▀█▀     █▄▄ █▀█ █▀█ █▄▀ █▀▀ █▀█     ##";
-echo " ##      █░▀░█ ▀▀█ ░█░ ░█░     █▄█ █▀▄ █▄█ █░█ ██▄ █▀▄     ##";
-echo " ##                                                        ##";
-echo " ##      ▀█▀ █▀█ █▀█ █░░ █▀     █▀ █▀▀ ▀█▀ █░█ █▀█         ##";
-echo " ##      ░█░ █▄█ █▄█ █▄▄ ▄█     ▄█ ██▄ ░█░ █▄█ █▀▀         ##";
-echo " ##                                                        ##";
-echo " ##      Developer : github.com/anggrdwjy                  ##";
-echo " ##      Version 1.0.2 | 12/11/2024                        ##";
-echo " ##      Support Ubuntu 18.04, 20.04, 22.04, 24.04         ##";
-echo " ##                                                        ##";
-echo " ############################################################";
-echo " ##                                                        ##";
-echo " ##      List Menu :                                       ##";
-echo " ##      [1] Add EMQX to Repository and Update             ##";
-echo " ##      [2] EMQX Install                                  ##";
-echo " ##      [3] Start EMQX                                    ##";
-echo " ##      [4] Check EMQX Daemon Status                      ##";
-echo " ##      [5] Check Port EMQX                               ##";
-echo " ##      [6] Custom Port Dashboard EMQX                    ##";
-echo " ##      [7] Bandwidth Monitoring Server                   ##";
-echo " ##      [8] Monitoring CPU and Memory                     ##";
-echo " ##      [9] Reboot Server                                 ##";
-echo " ##      [10] Exit                                         ##";
-echo " ##                                                        ##";
-echo " ############################################################";
-echo "                                                           ";
-read -p " Select List : " choice;
-echo "                                                            ";
+echo "                                                                     ";
+echo "       __  _______  ____________   ____             __               ";
+echo "      /  |/  / __ \/_  __/_  __/  / __ )_________  / /_____  _____   ";
+echo "     / /|_/ / / / / / /   / /    / __  / ___/ __ \/ //_/ _ \/ ___/   ";
+echo "    / /  / / /_/ / / /   / /    / /_/ / /  / /_/ / ,< /  __/ /       ";
+echo "   /_/  /_/\___\_\/_/   /_/    /_____/_/   \____/_/|_|\___/_/        ";
+echo "                                                                     ";
+echo "    ______          __      ____    __                   ___         ";
+echo "   /_  __/__  ___  / /__   / __/__ / /___ _____    _  __|_  |        ";
+echo "    / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         ";
+echo "   /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         ";
+echo "                                         /_/                         ";
+echo "   Version: 1.0.2 - 15/11/2024                       By Anggrdwjy    ";
+echo "         __________________________________________     ";
+echo "         Options List :                                 ";
+echo "         1) Add EMQX to Repository and Update           ";
+echo "         2) EMQX Install                                ";
+echo "         3) Start EMQX                                  ";
+echo "         4) Check EMQX Daemon Status                    ";
+echo "         5) Check Port EMQX                             ";
+echo "         6) Custom Port Dashboard EMQX                  ";
+echo "         7) Bandwidth Monitoring Server                 ";
+echo "         8) Monitoring CPU and Memory                   ";
+echo "         9) Reboot Server                               ";
+echo "         10) Exit                                       ";
+echo "         __________________________________________     ";
+echo "                                                        ";
+read -p "         Enter a number the options listed: " choice;
+echo "                                                        ";
 case $choice in
 
 1) read -p "Add EMQX to Repository and Update? y/n :" -n 1 -r
