@@ -51,6 +51,7 @@ chmod -R 777 *
 * https://htop.dev/
 * http://iptraf.seul.org/
 * https://www.onlinegdb.com/online_bash_shell
+* https://manytools.org/hacker-tools/ascii-banner/
 
 **Bugs**
 
