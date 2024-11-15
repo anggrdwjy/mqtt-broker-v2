@@ -22,6 +22,7 @@
 ```
 
 **Features**
+-----
 * MQTT Broker Server Install
 * Custom Port Dashboard MQTT Broker Server
 * Custom Port MQTT Client Listener
@@ -29,12 +30,14 @@
 * CPU and RAM Monitoring Server
 
 **Support OS**
+-----
 * Ubuntu 18.04
 * Ubuntu 20.04
 * Ubuntu 22.04
 * Ubuntu 24.04
 
 **Installing Program**
+-----
 ```
 git clone https://github.com/anggrdwjy/mqtt-tools-v2.git
 cd mqtt-tools-v2
@@ -42,12 +45,13 @@ chmod -R 777 *
 ```
 
 **Running Program**
+-----
 ```
 ./mqtt-tools-v2.sh
 ```
 
 **Source This Open-Source Project**
-
+-----
 * https://docs.emqx.com/en/emqx/latest/
 * https://htop.dev/
 * http://iptraf.seul.org/
@@ -55,14 +59,14 @@ chmod -R 777 *
 * https://manytools.org/hacker-tools/ascii-banner/
 
 **Bugs**
-
+-----
 Please open an issue on GitHub with as much information as possible if you found a bug.
 * Your operating system / Linux distribution
 * All the logs and message outputted
 * etc
 
 **Support This Project**
-
+-----
 * [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
