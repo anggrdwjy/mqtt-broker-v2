@@ -21,7 +21,6 @@
                        
 ```
 
------
 **Features**
 
 * MQTT Broker Server Install
@@ -30,14 +29,12 @@
 * Bandwidth Monitoring Server
 * CPU and RAM Monitoring Server
 
------
 **Support OS**
 * Ubuntu 18.04
 * Ubuntu 20.04
 * Ubuntu 22.04
 * Ubuntu 24.04
 
------
 **Installing Program**
 ```
 git clone https://github.com/anggrdwjy/mqtt-tools-v2.git
@@ -45,13 +42,11 @@ cd mqtt-tools-v2
 chmod -R 777 *
 ```
 
------
 **Running Program**
 ```
 ./mqtt-tools-v2.sh
 ```
 
------
 **Source This Open-Source Project**
 * https://docs.emqx.com/en/emqx/latest/
 * https://htop.dev/
@@ -59,7 +54,6 @@ chmod -R 777 *
 * https://www.onlinegdb.com/online_bash_shell
 * https://manytools.org/hacker-tools/ascii-banner/
 
------
 **Bugs**
 
 Please open an issue on GitHub with as much information as possible if you found a bug.
@@ -67,7 +61,6 @@ Please open an issue on GitHub with as much information as possible if you found
 * All the logs and message outputted
 * etc
 
------
 **Support This Project**
 
 * [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
