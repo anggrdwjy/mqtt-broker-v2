@@ -179,17 +179,17 @@ case $choice in
    
 10) exit
    ;;
-*)    echo "Sorry, Options List Not Available"
+*)    echo "Sorry, options list not available"
 esac
 echo "                                                  ";
-echo -n "   Back to Options List? [y/n]: ";
+echo -n "   Back to options list? [y/n]: ";
 read again;
 while [[ $again != 'Y' ]] && [[ $again != 'y' ]] && [[ $again != 'N' ]] && [[ $again != 'n' ]];
 do
 echo "                                                  ";
-echo "   Sorry, Options List Not Available";
+echo "   Sorry, options list not available";
 echo "                                                  ";
-echo -n "   Back to Options List? [y/n]: ";
+echo -n "   Back to options list? [y/n]: ";
 read again;
 done
 done 
