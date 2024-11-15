@@ -24,6 +24,7 @@ echo "   /_  __/__  ___  / /__   / __/__ / /___ _____    _  __|_  |        ";
 echo "    / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         ";
 echo "   /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         ";
 echo "                                         /_/                         ";
+echo "                                                                     ";
 echo "   Version: 1.0.3 - 15/11/2024                       By Anggrdwjy    ";
 echo "   Support OS: Ubuntu 18.04, 20.04, 22.04, 24.04        ";
 echo "                                                        ";
@@ -42,7 +43,7 @@ echo "   9) Reboot Server                               ";
 echo "   10) Exit                                       ";
 echo "   __________________________________________     ";
 echo "                                                        ";
-read -p "   Enter a Number The Options Listed: " choice;
+read -p "   Enter a number the options listed: " choice;
 echo "                                                        ";
 case $choice in
 
