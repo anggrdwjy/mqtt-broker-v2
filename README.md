@@ -30,7 +30,7 @@ Version: 1.0.2 - 15/11/2024                       By Anggrdwjy
 
 **Installing Program**
 ```
-git clone https://github.com/anggrdwjy/mqtt-tools-v2
+git clone https://github.com/anggrdwjy/mqtt-tools-v2.git
 cd mqtt-tools-v2
 chmod -R 777 *
 ```
