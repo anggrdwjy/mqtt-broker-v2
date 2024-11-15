@@ -47,9 +47,10 @@ chmod -R 777 *
 ```
 
 **Source**
-* [EMQX](https://docs.emqx.com/en/emqx/latest/)
-* [Htop](https://htop.dev/)
-* [IPTraf](http://iptraf.seul.org/)
+* [EMQX Broker Server Document](https://docs.emqx.com/en/emqx/latest/)
+* [HTOP](https://htop.dev/)
+* [IPTRAF](http://iptraf.seul.org/)
+* [Online Bash Shell](https://www.onlinegdb.com/online_bash_shell)
 
 **Bugs**
 
