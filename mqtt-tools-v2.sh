@@ -2,7 +2,7 @@ root@ubut:~/mqtt-tools-v2# more mqtt-tools-v2.sh
 #!/bin/bash
 #################################################################
 # Script Name   : mqtt-tools-v2                                 #
-# Description   : Script Auto Install MQTT Broker               #
+# Description   : Script Auto Install MQTT Broker Server        #
 # Author        : Anggarda Saputra Wijaya                       #
 # Email         : aw0x0410@gmail.com                            #
 # Github        : https://github.com/anggrdwjy.                 #
@@ -53,7 +53,7 @@ case $choice in
    then
    sudo curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
    echo "                                                  ";
-   echo "======== Add to Repository Done ========";
+   echo "   ======== Add to Repository Done ========";
    echo "                                                  ";
    fi
    ;;
@@ -65,7 +65,7 @@ case $choice in
    then
    sudo apt-get install emqx
    echo "                                                  ";
-   echo "======== MQTT Broker Server Installed ========";
+   echo "   ======== MQTT Broker Server Installed ========";
    echo "                                                  ";
    fi
    ;;
@@ -77,7 +77,7 @@ case $choice in
    then
    sudo systemctl start emqx
    echo "                                                  ";
-   echo "======== MQTT Broker Server Started ========";
+   echo "   ======== MQTT Broker Server Started ========";
    echo "                                                  ";
    fi
    ;;
@@ -89,7 +89,7 @@ case $choice in
    then
    sudo systemctl status emqx | more
    echo "                                                  ";
-   echo "======== MQTT Broker Server Status ========";
+   echo "   ======== MQTT Broker Server Status ========";
    echo "                                                  ";
    fi
    ;;
@@ -109,7 +109,7 @@ case $choice in
    then
    sudo netstat -tunlp
    echo "                                                  ";
-   echo "======== Port MQTT Broker Server List ========";
+   echo "   ======== Port MQTT Broker Server List ========";
    echo "                                                  ";
    fi
    ;;   
@@ -129,7 +129,7 @@ case $choice in
    sudo nano /etc/emqx/emqx.conf
    sudo systemctl restart emqx
    echo "                                                  ";
-   echo "======== Custom Port MQTT Broker Done ========";
+   echo "   ======== Custom Port MQTT Broker Done ========";
    echo "                                                  ";
    fi
    ;;   
@@ -181,14 +181,12 @@ case $choice in
 esac
 echo "                                                  ";
 echo -n "   Back to Options List? [y/n]: ";
-echo "                                                  ";
 read again;
 while [[ $again != 'Y' ]] && [[ $again != 'y' ]] && [[ $again != 'N' ]] && [[ $again != 'n' ]];
 do
 echo "   Sorry, Options List Not Available";
 echo "                                                  ";
 echo -n "   Back to Options List? [y/n]: ";
-echo "                                                  ";
 read again;
 done
 done 
