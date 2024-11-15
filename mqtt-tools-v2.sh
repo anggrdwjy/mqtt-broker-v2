@@ -142,10 +142,10 @@ case $choice in
    echo " |---------------------------------------------------------|";
    echo " |      Default Port MQTT Client Listener : 1883           |";
    echo " |      Add This Script and Configure TCP Listener         |";
-   echo " |      Directory  ->  /etc/emqx/emqx.conf                 |";
+   echo " |      Directory  -->  /etc/emqx/emqx.conf                |";
    echo " |                                                         |";
    echo " |      listeners.tcp.default {                            |";
-   echo " |        bind = "0.0.0.0:1883"         <-- Custom Port    |";
+   echo " |        bind = "0.0.0.0:1883"         <-- Custom Port      |";
    echo " |        max_connections = 1024000                        |";
    echo " |      }                                                  |";
    echo " |                                                         |";
