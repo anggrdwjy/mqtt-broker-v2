@@ -46,7 +46,7 @@ chmod -R 777 *
 ./mqtt-tools-v2.sh
 ```
 
-## Source This Open-Source Project
+## Source Project
 
 * https://docs.emqx.com/en/emqx/latest/
 * https://htop.dev/
@@ -61,7 +61,7 @@ Please open an issue on GitHub with as much information as possible if you found
 * All the logs and message outputted
 * etc
 
-## Support This Project
+## Support
 
 * [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
