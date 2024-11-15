@@ -38,10 +38,11 @@ echo "   3) Start MQTT Broker Server                    ";
 echo "   4) Check MQTT Broker Server Status             ";
 echo "   5) Check Port MQTT Broker Server               ";
 echo "   6) Custom Port Dashboard MQTT Broker           ";
-echo "   7) Bandwidth Monitoring Server                 ";
-echo "   8) Monitoring CPU and Memory                   ";
-echo "   9) Reboot Server                               ";
-echo "   10) Exit                                       ";
+echo "   7) Custom Port MQTT Client Listener            ";
+echo "   8) Bandwidth Monitoring Server                 ";
+echo "   9) Monitoring CPU and Memory                   ";
+echo "   10) Reboot Server                              ";
+echo "   11) Exit                                       ";
 echo "   __________________________________________     ";
 echo "                                                        ";
 read -p "   Enter a number the options listed: " choice;
@@ -136,7 +137,34 @@ case $choice in
    fi
    ;;   
 
-7) read -p "   Install Bandwidth Monitoring? y/n :" -n 1 -r
+7) echo "                                                  ";
+   echo "                                                  ";
+   echo " |---------------------------------------------------------|";
+   echo " |      Default Port MQTT Client Listener : 1883           |";
+   echo " |      Add This Script and Configure TCP Listener         |";
+   echo " |      Directory  ->  /etc/emqx/emqx.conf                 |";
+   echo " |                                                         |";
+   echo " |      listeners.tcp.default {                            |";
+   echo " |        bind = "0.0.0.0:1883"         <-- Custom Port    |";
+   echo " |        max_connections = 1024000                        |";
+   echo " |      }                                                  |";
+   echo " |                                                         |";
+   echo " |---------------------------------------------------------|";
+   echo "                                                  ";
+   read -p "   Custom Port MQTT Client Listener? y/n :" -n 1 -r
+   echo  ""
+   echo "                                                  ";
+   if [[ ! $REPLY =~ ^[Nn]$ ]]
+   then
+   sudo nano /etc/emqx/emqx.conf
+   sudo systemctl restart emqx
+   echo "                                                  ";
+   echo "   ======== Custom Port MQTT Client Listener Done ========";
+   echo "                                                  ";
+   fi
+   ;;  
+   
+8) read -p "   Install Bandwidth Monitoring? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
@@ -152,7 +180,7 @@ case $choice in
    fi
    ;;
    
-8) read -p "   Install Monitoring CPU and RAM? y/n :" -n 1 -r
+9) read -p "   Install Monitoring CPU and RAM? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
@@ -168,7 +196,7 @@ case $choice in
    fi
    ;;
    
-9) read -p "   Reboot Your Server? y/n :" -n 1 -r
+10) read -p "   Reboot Your Server? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
@@ -177,7 +205,7 @@ case $choice in
    fi
    ;;
    
-10) exit
+11) exit
    ;;
 *)    echo "Sorry, options list not available"
 esac
