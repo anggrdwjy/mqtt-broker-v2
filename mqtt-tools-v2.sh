@@ -25,6 +25,7 @@ echo "    / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         ";
 echo "   /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         ";
 echo "                                         /_/                         ";
 echo "                                             --- By Anggrdwjy ---    ";
+echo "                                                                     ";
 echo "   Version: 2.0.3 - 15/11/2024                          ";
 echo "   Developer: https://github.com/anggrdwjy              ";
 echo "   Support OS: Ubuntu 18.04, 20.04, 22.04, 24.04        ";
@@ -143,6 +144,8 @@ case $choice in
    echo " |      Default Port MQTT Client Listener : 1883           |";
    echo " |      Add This Script and Configure TCP Listener         |";
    echo " |      Directory  -->  /etc/emqx/emqx.conf                |";
+   echo " |                                                         |";
+   echo " |   ---- Copy and Paste This Script Below This ----       |";
    echo " |                                                         |";
    echo " |      listeners.tcp.default {                            |";
    echo " |        bind = "0.0.0.0:1883"         <-- Custom Port      |";
