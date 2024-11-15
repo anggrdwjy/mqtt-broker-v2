@@ -1,26 +1,33 @@
 ## This Tools Automation Setup MQTT Broker Server (EMQX)
 
 ```
-    __  _______  ____________   ____             __            
-   /  |/  / __ \/_  __/_  __/  / __ )_________  / /_____  _____
-  / /|_/ / / / / / /   / /    / __  / ___/ __ \/ //_/ _ \/ ___/
- / /  / / /_/ / / /   / /    / /_/ / /  / /_/ / ,< /  __/ /    
-/_/  /_/\___\_\/_/   /_/    /_____/_/   \____/_/|_|\___/_/     
-                                                               
- ______          __      ____    __                   ___ 
-/_  __/__  ___  / /__   / __/__ / /___ _____    _  __|_  |
- / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/ 
-/_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/ 
-                                      /_/
-Version: 1.0.2 - 15/11/2024                       By Anggrdwjy
-                                                               
+                                                   
+       __  _______  ____________   ____             __               
+      /  |/  / __ \/_  __/_  __/  / __ )_________  / /_____  _____   
+     / /|_/ / / / / / /   / /    / __  / ___/ __ \/ //_/ _ \/ ___/   
+    / /  / / /_/ / / /   / /    / /_/ / /  / /_/ / ,< /  __/ /       
+   /_/  /_/\___\_\/_/   /_/    /_____/_/   \____/_/|_|\___/_/        
+                                                                     
+    ______          __      ____    __                   ___         
+   /_  __/__  ___  / /__   / __/__ / /___ _____    _  __|_  |        
+    / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         
+   /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         
+                                         /_/                         
+                                                                     
+                                             --- By Anggrdwjy ---    
+                                                                     
+   Version: 2.0.3 - 15/11/2024                          
+   Developer: https://github.com/anggrdwjy              
+   Support OS: Ubuntu 18.04, 20.04, 22.04, 24.04        
+                                                                                                                       
 ```
 
 **Features**
-* MQTT Broker Install
-* Custom Port Dashboard Monitoring
-* Bandwidth Monitoring
-* CPU and RAM Monitoring
+* MQTT Broker Server Install
+* Custom Port Dashboard MQTT Broker Server
+* Custom Port MQTT Client Listener
+* Bandwidth Monitoring Server
+* CPU and RAM Monitoring Server
 
 **Support OS**
 * Ubuntu 18.04
