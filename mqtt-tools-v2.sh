@@ -24,7 +24,7 @@ echo "   /_  __/__  ___  / /__   / __/__ / /___ _____    _  __|_  |        ";
 echo "    / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         ";
 echo "   /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         ";
 echo "                                         /_/                         ";
-echo "                                                     By Anggrdwjy    ";
+echo "                                             --- By Anggrdwjy ---    ";
 echo "   Version: 2.0.3 - 15/11/2024                          ";
 echo "   Developer: https://github.com/anggrdwjy              ";
 echo "   Support OS: Ubuntu 18.04, 20.04, 22.04, 24.04        ";
