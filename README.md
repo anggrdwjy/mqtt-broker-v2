@@ -23,7 +23,7 @@
 
 ## Information
 
-Before using this program, make sure to install `git`, `curl` and `net-tools` to maximize the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 and Linux Container.
+Before using this program, make sure to install `git`, `curl` and `net-tools` to maximize the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 and Linux Container (LXC).
 
 ## Features
 * MQTT Broker Server Install
