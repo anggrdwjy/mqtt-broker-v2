@@ -23,7 +23,7 @@
 
 ## Information
 
-Before using this script, make sure `curl` and `net-tools` are installed to maximize the program. I am not responsible for any consequences caused by this script. It is recommended to use this script when the server is newly installed.
+Before using this program, make sure to install `git`, `curl` and `net-tools` to maximize the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 and Linux Container.
 
 ## Features
 * MQTT Broker Server Install
@@ -57,6 +57,8 @@ chmod -R 777 *
 * http://iptraf.seul.org/
 * https://www.onlinegdb.com/online_bash_shell
 * https://manytools.org/hacker-tools/ascii-banner/
+* https://sourceforge.net/projects/net-tools/
+* https://curl.se/docs/manpage.html
 
 ## Bugs
 
