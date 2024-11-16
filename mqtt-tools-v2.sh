@@ -150,7 +150,7 @@ case $choice in
    echo " |-------------------------------------------------------|";
    echo "                                                          ";
    echo "       listeners.tcp.default {                            ";
-   echo "         bind = "0.0.0.0:1883"       ##Custom Port        ";
+   echo "         bind = "0.0.0.0:1883"                            ";
    echo "         max_connections = 1024000                        ";
    echo "       }                                                  ";
    echo "                                                          ";
