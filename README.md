@@ -23,7 +23,7 @@
 
 ## Information
 
-Before using this script, make sure "curl" and "net-tools" are installed to maximize the program. I am not responsible for any consequences caused by this script. It is recommended to use this script when the server is newly installed.
+Before using this script, make sure `curl` and `net-tools` are installed to maximize the program. I am not responsible for any consequences caused by this script. It is recommended to use this script when the server is newly installed.
 
 ## Features
 * MQTT Broker Server Install
