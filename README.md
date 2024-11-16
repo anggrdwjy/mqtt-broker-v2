@@ -28,8 +28,8 @@ Before using this program, make sure to install `git`, `curl` and `net-tools` to
 ## Features
 * MQTT Broker Server Install
 * Custom Port Dashboard MQTT Broker Server
-* Custom Port MQTT Client Listener
-* Bandwidth Monitoring       (Not Support in AWS EC2)
+* Custom Port MQTT Client Listener `Not Support in AWS EC2`
+* Bandwidth Monitoring `Not Support in AWS EC2`
 * CPU and RAM Monitoring
 
 ## Support OS
