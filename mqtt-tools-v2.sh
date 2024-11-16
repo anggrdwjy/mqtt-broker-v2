@@ -141,19 +141,19 @@ case $choice in
 
 7) echo "                                                  ";
    echo "                                                  ";
-   echo " |---------------------------------------------------------|";
-   echo " |      Default Port MQTT Client Listener : 1883           |";
-   echo " |      Add This Script and Configure TCP Listener         |";
-   echo " |      Directory  -->  /etc/emqx/emqx.conf                |";
-   echo " |                                                         |";
-   echo " |   ---- Copy and Paste This Script Below This ----       |";
-   echo " |                                                         |";
-   echo " |      listeners.tcp.default {                            |";
-   echo " |        bind = "0.0.0.0:1883"         <-- Custom Port      |";
-   echo " |        max_connections = 1024000                        |";
-   echo " |      }                                                  |";
-   echo " |                                                         |";
-   echo " |---------------------------------------------------------|";
+   echo " |-------------------------------------------------------|";
+   echo " |      Default Port MQTT Client Listener : 1883         |";
+   echo " |      Add This Script and Configure TCP Listener       |";
+   echo " |      Directory  -->  /etc/emqx/emqx.conf              |";
+   echo " |                                                       |";
+   echo " |      ---- Copy and Paste Script in Below ----         |";
+   echo " |-------------------------------------------------------|";
+   echo "                                                          ";
+   echo "       listeners.tcp.default {                            ";
+   echo "         bind = "0.0.0.0:1883"       ##Custom Port        ";
+   echo "         max_connections = 1024000                        ";
+   echo "       }                                                  ";
+   echo "                                                          ";
    echo "                                                  ";
    read -p "   Custom Port MQTT Client Listener? y/n :" -n 1 -r
    echo  ""
@@ -173,7 +173,7 @@ case $choice in
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]]
    then
-   sudo apt install iptraf-ng
+   sudo apt-get install iptraf-ng
    fi
    read -p "   Check Bandwidth Monitoring? y/n :" -n 1 -r
    echo "                                                  ";
@@ -211,7 +211,7 @@ case $choice in
    
 11) exit
    ;;
-*)    echo "Sorry, options list not available"
+*)    echo "   Sorry, options list not available"
 esac
 echo "                                                  ";
 echo -n "   Back to options list? [y/n]: ";
