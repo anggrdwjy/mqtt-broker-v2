@@ -50,7 +50,7 @@ chmod -R 777 *
 ./mqtt-tools-v2.sh
 ```
 
-## Source Project
+## References
 
 * https://docs.emqx.com/en/emqx/latest/
 * https://htop.dev/
