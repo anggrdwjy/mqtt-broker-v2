@@ -12,13 +12,7 @@
     / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         
    /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         
                                          /_/                         
-                                                                     
-                                             --- By Anggrdwjy ---    
-                                                                     
-   Version: 2.0.3 - 15/11/2024                          
-   Developer: https://github.com/anggrdwjy              
-   Support OS: Ubuntu 18.04, 20.04, 22.04, 24.04        
-                       
+                                                                                               
 ```
 
 ## Information
@@ -41,7 +35,11 @@ Before using this program, make sure to install `git`, `curl` and `net-tools` to
 ## Installing Program
 ```
 git clone https://github.com/anggrdwjy/mqtt-tools-v2.git
+```
+```
 cd mqtt-tools-v2
+```
+```
 chmod -R 777 *
 ```
 
@@ -49,6 +47,12 @@ chmod -R 777 *
 ```
 ./mqtt-tools-v2.sh
 ```
+
+## Support
+
+* [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
+* [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
+* [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
 
 ## References
 
@@ -66,9 +70,3 @@ Please open an issue on GitHub with as much information as possible if you found
 * Your operating system / Linux distribution
 * All the logs and message outputted
 * etc
-
-## Support
-
-* [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
-* [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
-* [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
