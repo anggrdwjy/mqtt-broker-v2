@@ -1,10 +1,8 @@
-root@ubut:~/mqtt-tools-v2# more mqtt-tools-v2.sh 
 #!/bin/bash
 #===============================================================#
-# Script Name   : mqtt-tools-v2                                 #
-# Description   : Script Auto Install MQTT Broker Server        #
+# Script Name   : mqtt-broker-v2                                #
+# Description   : Script Setup MQTT Broker Server               #
 # Author        : Anggarda Saputra Wijaya                       #
-# Email         : aw0x0410@gmail.com                            #
 # Github        : https://github.com/anggrdwjy.                 #
 #===============================================================#
 again='y'
