@@ -48,7 +48,8 @@ case $choice in
 1) read -p "   Add MQTT to Repository and Update? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
    echo "                                                  ";
    echo "   ======== Add to Repository Done ========";
@@ -59,7 +60,8 @@ case $choice in
 2) read -p "   MQTT Broker Server Install? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo apt-get install emqx
    echo "                                                  ";
    echo "   ======== MQTT Broker Server Installed ========";
@@ -70,7 +72,8 @@ case $choice in
 3) read -p "   Start MQTT Broker Server? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo systemctl start emqx
    echo "                                                  ";
    echo "   ======== MQTT Broker Server Started ========";
@@ -81,7 +84,8 @@ case $choice in
 4) read -p "   Check MQTT Broker Status? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo systemctl status emqx | more
    echo "                                                  ";
    echo "   ======== MQTT Broker Server Status ========";
@@ -100,7 +104,8 @@ case $choice in
    read -p "   Check Port MQTT Broker Server? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo netstat -tunlp
    echo "                                                  ";
    echo "   ======== Port MQTT Broker Server List ========";
@@ -118,7 +123,8 @@ case $choice in
    read -p "   Custom Port Dashboard MQTT Broker? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo nano /etc/emqx/emqx.conf
    sudo systemctl restart emqx
    echo "                                                  ";
@@ -146,7 +152,8 @@ case $choice in
    read -p "   Custom Port MQTT Client Listener? y/n :" -n 1 -r
    echo  ""
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo nano /etc/emqx/emqx.conf
    sudo systemctl restart emqx
    echo "                                                  ";
@@ -158,13 +165,15 @@ case $choice in
 8) read -p "   Install Bandwidth Monitoring? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo apt-get install iptraf-ng
    fi
    read -p "   Check Bandwidth Monitoring? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    iptraf-ng
    fi
    ;;
@@ -172,13 +181,15 @@ case $choice in
 9) read -p "   Install Monitoring CPU and RAM? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo apt install htop
    fi
    read -p "   Show Monitoring CPU and RAM? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    sudo htop
    fi
    ;;
@@ -186,7 +197,8 @@ case $choice in
 10) read -p "   Reboot Your Server? y/n :" -n 1 -r
    echo "                                                  ";
    echo "                                                  ";
-   if [[ ! $REPLY =~ ^[Nn]$ ]] then
+   if [[ ! $REPLY =~ ^[Nn]$ ]] 
+   then
    reboot
    fi
    ;;
