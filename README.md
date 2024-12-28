@@ -45,7 +45,7 @@ chmod -R 777 *
 
 ## Running Program
 ```
-./mqtt-tools-v2.sh
+./mqtt-broker-v2.sh
 ```
 
 ## Support
