@@ -63,12 +63,6 @@ http://ip-address:18083
 ## References
 
 * https://docs.emqx.com/en/emqx/latest/
-* https://htop.dev/
-* http://iptraf.seul.org/
-* https://www.onlinegdb.com/online_bash_shell
-* https://manytools.org/hacker-tools/ascii-banner/
-* https://sourceforge.net/projects/net-tools/
-* https://curl.se/docs/manpage.html
 
 ## Bugs
 
