@@ -18,14 +18,12 @@
 
 ## Information
 
-Before using this program, make sure to install `git`, `curl` and `net-tools` to maximize the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 with `Public IP` and LXC (Linux Container) with `Private IP`.
+Before using this program, make sure to update the repository 'sudo apt update' and install git 'sudo apt install git -y' to maximize the running of the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 with `Public IP` and LXC (Linux Container) with `Private IP`.
 
 ## Features
-* MQTT Broker Server Install
-* Custom Port Dashboard MQTT Broker Server
-* Custom Port MQTT Client Listener `Not Support AWS EC2`
-* Bandwidth Monitoring `Not Support AWS EC2`
-* CPU and RAM Monitoring
+* Setup MQTT Broker Server
+* Default MQTT Server Dashboard Port 18083, Custom Port Dashboard MQTT Broker Server
+* Default MQTT Port 1883, Support Custom Port MQTT Client Listener `Not Support AWS EC2`
 
 ## Support OS
 * Ubuntu 18.04
@@ -50,7 +48,8 @@ chmod -R 777 *
 ```
 
 ## Default Access Web Dashboard EMQX
-Port 18083 (Web Server) | Port 1883 (MQTT Port)
+
+Username : `admin` | Password : `public`
 ```
 http://ip-address:18083
 ```
