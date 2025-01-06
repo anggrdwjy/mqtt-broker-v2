@@ -47,6 +47,11 @@ chmod -R 777 *
 ./mqtt-broker-v2.sh
 ```
 
+## Check Listening Port
+```
+sudo netstat -tunlp | grep emqx
+```
+
 ## Default Access Web Dashboard EMQX
 
 Username : `admin` | Password : `public`
