@@ -1,21 +1,5 @@
 ## This Tools Automation Setup MQTT Broker Server for Open-Source Projects
 
-```                                                                                                   
-          __  _______  ____________  ___           __                   
-         /  |/  / __ \/_  __/_  __/ / _ )_______  / /_____ ____         
-        / /|_/ / /_/ / / /   / /   / _  / __/ _ \/   _/ -_) __/         
-       /_/  /_/\___\_\/_/   /_/   /____/_/  \___/_/\_\\__/_/                                                          
-       ______          __      ____    __                   ___         
-      /_  __/__  ___  / /__   / __/__ / /___ _____    _  __|_  |        
-       / / / _ \/ _ \/ (_-<  _\ \/ -_) __/ // / _ \  | |/ / __/         
-      /_/  \___/\___/_/___/ /___/\__/\__/\_,_/ .__/  |___/____/         
-                                            /_/                         
-      Version: 2.0.4 - 6/1/2025                          
-      Developer: https://github.com/anggrdwjy              
-      Support OS: Ubuntu 18.04, 20.04, 22.04, 24.04        
-                                                                                           
-```
-
 ## Information
 
 Before using this program, make sure to update the repository 'sudo apt update' and install git 'sudo apt install git -y' to maximize the running of the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 with `Public IP` and LXC (Linux Container) with `Private IP`.
