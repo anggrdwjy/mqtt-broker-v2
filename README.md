@@ -1,8 +1,8 @@
-## This Tools Automation Setup MQTT Broker Server for Open-Source Projects
+## This Tools Setup MQTT Broker Server for Communication Client IoT Devices.
 
 ## Information
 
-Before using this program, make sure to update the repository 'sudo apt update' and install git 'sudo apt install git -y' to maximize the running of the program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 with `Public IP` and LXC (Linux Container) with `Private IP`.
+Before using this program, make sure to update repository `sudo apt update` and install git `sudo apt install git -y` to maximize running of program. I am not responsible for any consequences caused by this program, because it does not include server hardening. It is recommended to use this script when the new server is installed. This program has been tested on AWS EC2 with `Public IP` and LXC (Linux Container) with `Private IP`.
 
 ## Features
 * Setup MQTT Broker Server
